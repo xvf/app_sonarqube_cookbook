@@ -2,7 +2,7 @@
 # Cookbook Name:: app_sonarqube
 # Recipe:: default
 #
-# Copyright 2016, APN LLC
+#
 #
 # Author Abhishek Srivastava
 #
