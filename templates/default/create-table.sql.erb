@@ -1,0 +1,3 @@
+CREATE DATABASE IF NOT EXISTS <%= node['sonarqube']['database']['dbname'] %>;
+GRANT ALL PRIVILEGES ON `<%= node['sonarqube']['database']['dbname'] %>`.* TO "<%= node['sonarqube']['database']['app']['username'] %>"@"<%= node['sonarqube']['database']['host'] %>" IDENTIFIED BY "<%= node['sonarqube']['database']['app']['password'] %>";
+FLUSH PRIVILEGES;

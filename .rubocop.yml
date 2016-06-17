@@ -1,0 +1,26 @@
+LineLength:
+  Enabled: false
+HashSyntax:
+  EnforcedStyle: hash_rockets
+Metrics/MethodLength:
+  Max: 99
+#Metrics/AbcSize:
+#  Max: 25
+#SingleSpaceBeforeFirstArg:
+#  Enabled: false
+#WordArray:
+#  Enabled: false
+#StringLiterals:
+#  Enabled: false
+#BracesAroundHashParameters:
+#  Enabled: false
+#PercentLiteralDelimiters:
+#  Enabled: false
+#IndentationWidth:
+#  Enabled: false
+#CommentIndentation:
+#  Enabled: false
+#SpaceInsideBrackets:
+#  Enabled: false
+#IndentHash:
+#  Enabled: false
